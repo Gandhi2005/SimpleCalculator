@@ -7,6 +7,7 @@
     width: 200px;
     border: 1px solid black;
     padding: 10px;
+    margin:auto;
   }
   .screen {
     width: 100%;
@@ -18,14 +19,21 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5px;
+    background-color:#92d695;
   }
   button {
     height: 40px;
+    color:
+  }
+  h1{
+    background-color:Green;
+    font-family:"Cursive";
   }
 </style>
 </head>
 <body>
-  <div class="calculator">
+  <div class="calculator"> 
+    <h1>A Simple Calculator</h1>
     <input type="text" class="screen" id="display">
     <div class="buttons">
       <button onclick="appendValue('7')">7</button>
